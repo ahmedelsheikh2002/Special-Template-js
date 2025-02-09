@@ -18,7 +18,7 @@ body{
 
 .landing{
     position: relative;
-    background-image: url(./img/file-9QQ3zMQ1fEJiyugmqm4H9J.webp) ;
+    background-image: url(img/file-9QQ3zMQ1fEJiyugmqm4H9J.webp) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ body{
     }
     } 
     footer{
-    background-image: url(/img/images.jpg);
+    background-image: url(img/images.jpg);
     position: relative;
     background-size: cover;
     height: 101px;
