@@ -1,8 +1,8 @@
 
 const imgs =[
-   'url( "/img/file-9QQ3zMQ1fEJiyugmqm4H9J.webp")',
-   'url( "/img/file-3LRTUkrK2rBbMiXK3syvUm.webp")',
-   'url( "/img/file-AXGsPBn4PYDnbNc3Mjsi2Q.webp")',
+   'url( "img/file-9QQ3zMQ1fEJiyugmqm4H9J.webp")',
+   'url( "img/file-3LRTUkrK2rBbMiXK3syvUm.webp")',
+   'url( "img/file-AXGsPBn4PYDnbNc3Mjsi2Q.webp")',
 ] ;
 let current = 0;
 
