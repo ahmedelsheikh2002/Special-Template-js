@@ -65,7 +65,7 @@ body{
 }
 .header{
         position: relative;
-        background-image: url(/img/IMG_20241226_030218.jpg);
+        background-image: url(../img/IMG_20241226_030218.jpg);
         background-size: cover;
         background-position: center;
         height: 25vh;
@@ -417,7 +417,7 @@ body{
     }
     } 
     footer{
-    background-image: url(/img/images.jpg);
+    background-image: url(../img/images.jpg);
     position: relative;
     background-size: cover;
     height: 101px;
