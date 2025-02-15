@@ -244,15 +244,14 @@ body{
     #softdrink {
         position: relative;
         display: flex;
-        justify-content: center;
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 10%;
-        padding-right: 10%;
         margin-right: auto;
         margin-left: auto;
         align-items: center;
         flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
     }
     h2{
         font-weight: bold;
@@ -280,7 +279,6 @@ body{
     .cars{
         display: flex;
         overflow: hidden;
-        width: 100%;
         position: relative;
         cursor: grab;
 
@@ -335,15 +333,14 @@ body{
     #sweetscorner{
         position: relative;
         display: flex;
-        justify-content: center;
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 10%;
-        padding-right: 10%;
         margin-right: auto;
         margin-left: auto;
         align-items: center;
         flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
         /* h2{
             font-weight: bold;
             font-size: 55px;
@@ -359,15 +356,14 @@ body{
     #snakschips{
         position: relative;
         display: flex;
-        justify-content: center;
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 10%;
-        padding-right: 10%;
         margin-right: auto;
         margin-left: auto;
         align-items: center;
         flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
         /* h2{
             font-weight: bold;
             font-size: 55px;
@@ -383,15 +379,12 @@ body{
     #contact{
         position: relative;
         display: flex;
-        justify-content: center;
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 10%;
-        padding-right: 10%;
         margin-right: auto;
         margin-left: auto;
         flex-wrap: wrap;
-        align-content: center;
+        justify-content: center;
         flex-direction: column;
     .i{
     display: flex;
@@ -409,12 +402,19 @@ body{
     p{
         font-size: 22px;
     }
+    h2{
+        text-align: center;
+    }
     } 
     footer{
     background-image: url(../img/images.jpg);
     position: relative;
     background-size: cover;
-    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     .overlay{
         position: absolute;
         left: 0;
