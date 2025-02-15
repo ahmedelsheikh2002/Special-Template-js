@@ -281,6 +281,7 @@ body{
         overflow: hidden;
         position: relative;
         cursor: grab;
+    touch-action: pan-y;
 
     .pro{
         min-width: 100%;
