@@ -117,6 +117,7 @@ console.log(products)
         function startDrag(e) {
             isdraggin = true;
             start = getPositionX(e);
+startY = e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
             prev = currentt;
             cars.style.cursor = 'grabbing';
         }
@@ -124,8 +125,13 @@ console.log(products)
         function drag(e) {
             if (!isdraggin) return;
             const position = getPositionX(e);
+const currentY = e.type.includes('mouse') ? e.pageY : e.touches[0].clientY;
             e.preventDefault();
-            currentt = prev + position - start;
+            currentt = prev + position - start
+const deltaY = currentY - startY;
+if (Math.abs(deltaY) > Math.abs(deltaX)) {
+        return; // لا منع الافتراضي، مما يسمح بالتمرير الرأسي
+    }
         }
     
         function endDrag() {
