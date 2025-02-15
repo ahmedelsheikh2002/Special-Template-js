@@ -103,29 +103,23 @@ body{
  .sub{
         display: flex;
         justify-content: center;
-        flex-direction: row-reverse;
         align-items: center;
+        position: relative;
  }
 .header input{
-    position: absolute;
-    color: #04040440;
-    background-color: #83c3df;
-    font-size: 16px;
-    left: 25%;
-    top: 100%;
+    color: #040404e0;
+    background-color: #c7882c;
+    font-size: 17px;
     text-align: center;
 }
 .header .search{
-    background-color: #890d04;
-    position: absolute;
+    background-color: #16130d;
     top: 101%;
-    right: 22%;
-    font-size: 16px;
+    font-size: 20px;
     width: 33px;
     height: 22px;
-    color: #ffffff;
-    border: 1px solid #2196F3;
-    text-align: center;
+    color: #c77a08;
+    border: 2px solid #a36810;
     cursor: pointer;
 }
 .header .pars{
